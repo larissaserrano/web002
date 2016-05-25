@@ -14,8 +14,8 @@ p {
 }
 
 div {
-	border-radius: 3px;
-	border: 2px solid #EE799F;
+	border-radius: 2px;
+	border: 1px solid #EE799F;
 	background-color: #FFB5C5;
 	height: 50px;
 	width: 120px;
