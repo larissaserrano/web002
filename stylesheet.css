@@ -22,16 +22,16 @@ p {
 }
 
 .link {
-	text-align: super;
-	heigth: 200px;
-	width:120px;
-	border-radius: 1px;
-	border: 5px solid black;
-        margin-left:45%
-        font-family: Arial;
-        background:black;
-        display:inline-block;
+
+border-radius: 1px;
+border: 5px solid black;
+background-color: black;
+height: 50px;
+width: 130px;
+margin: auto;
+text-align: center;
 }
+
 
 a {
 	text-decoration: none;
