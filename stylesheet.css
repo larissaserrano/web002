@@ -1,6 +1,6 @@
 .container{
 	width: 30%;
-	
+	height: 10em;
 	display:block;
 	background-image: url("");
 	background-repeat: no-repeat;
@@ -23,7 +23,7 @@ p {
 
 .link {
 
-border-radius: 4px;
+border-radius: 6px;
 border: 2px solid #FF7F00;
 background-color: black;
 height: 50px;
