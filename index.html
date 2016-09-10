@@ -3,9 +3,27 @@
 	<head>
 		<link rel="icon" type="image/png" sizes="96x96" href="http://3.bp.blogspot.com/-DYAQ2Dz8b44/Tx8omV0UnxI/AAAAAAAAL1w/3HYQ21iMJVg/s1600/skull.gif">
 		<link type="text/css" rel="stylesheet" href="stylesheet.css"/>
-		<title><marquee> O grande general Aladeen </marquee></title>
+		<title> O grande general Aladeen </title>
 
 	</head>
+	<script> var repeat=1
+	var title=document.title
+	var leng=title.length
+	var start=1
+	function titlemove() {
+	titl=title.substring(start, leng) + title.substring(0, start)
+	document.title=titl
+	start++
+	if (start==leng+1) {
+	start=0
+	if (repeat==0)
+	return
+		}
+	setTimeout("titlemove()",300)  // aqui vc pode aumentar ou diminuir a velocidade 
+		}
+	if (document.title)
+	titlemove()
+</script>
 	<body background = "http://blogs.diariodonordeste.com.br/blogdecinema/wp-content/uploads/2012/02/MV5BNTE0NjM1OTc1OF5BMl5BanBnXkFtZTcwOTMwMzU1NQ@@._V1_.jpg">
 	
 		<div class="container">
